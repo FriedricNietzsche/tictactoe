@@ -1,27 +1,27 @@
 
 ---
 
-### ✅ `README.md` for `tictactoe-frontend`
+###  `README.md` for `tictactoe-frontend`
 
 ```markdown
 # Tic Tac Toe Frontend 🎨
 
-This is the React frontend for the Tic Tac Toe game. It allows users to play against an AI opponent with different difficulty levels (`easy`, `medium`, `hard`). The app connects to a RESTful backend built with Spring Boot and deployed to Render.
+This is the React frontend for the Tic Tac Toe game. It allows users to play against an AI opponent with different difficulty levels (`easy`, `medium`, `hard`). The app connects to a RESTful backend built with Spring Boot and deployed to Render.\
+
+##NOTE: Ignore the tictactoe-backend folder as that was intially included when starting the project. To see the backend please visit backend repo listed below.
 
 ---
 
-## 🌐 Live Demo
+##  Live Demo
 
-👉 https://tictactoe-frontend.vercel.app
-
-> (Replace with your actual Vercel URL)
+https://tictactoe-weld-mu.vercel.app/
 
 ---
 
-## 🧠 Features
+##  Features
 
 - Choose your AI difficulty: Easy, Medium, Hard
-- Pick player symbol: `X` or `O`
+- Pick player symbol: `X` or `O` (Bugged and will remove)
 - AI makes moves based on difficulty
 - Highlights winning moves
 - Tracks game outcome history (per difficulty level)
@@ -35,7 +35,7 @@ This app communicates with:
 
 ```
 
-[https://tictactoe-backend-](https://tictactoe-backend-)<your-slug>.onrender.com/api/game
+[tictactoe-backend](https://github.com/FriedricNietzsche/tictactoe-backend)
 
 ````
 
@@ -56,7 +56,7 @@ See the [backend repo](https://github.com/<your-username>/tictactoe-backend) for
 ### 1. Clone the Repo
 
 ```bash
-git clone https://github.com/<your-username>/tictactoe-frontend
+git clone https://github.com/<your-username>/tictactoe 
 cd tictactoe-frontend
 ````
 
@@ -71,7 +71,7 @@ npm install
 Create a `.env` file in the root:
 
 ```
-REACT_APP_API_BASE=https://tictactoe-backend-<your-slug>.onrender.com/api/game
+REACT_APP_API_BASE=https://tictactoe-backend-j8t5.onrender.comapi/game
 ```
 
 ### 4. Start Local Dev Server
@@ -84,7 +84,7 @@ Open `http://localhost:3000`
 
 ---
 
-## 🧪 Environment Variables (Vercel)
+##  Environment Variables (Vercel)
 
 In [Vercel](https://vercel.com):
 
@@ -123,7 +123,6 @@ MIT — free to use, modify, and deploy.
 
 ```
 
----
 
-Let me know if you’d like me to drop in your actual URLs (GitHub, Vercel, Render) or add screenshots to this!
+
 ```
