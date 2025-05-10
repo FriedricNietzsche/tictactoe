@@ -13,6 +13,7 @@ function App() {
   const [gameStarted, setGameStarted] = useState(false);
   const [gameHistory, setGameHistory] = useState({ easy: [], medium: [], hard: [] });
   const [winningLine, setWinningLine] = useState([]);
+  const [currentTurn, setCurrentTurn] = useState("X");
 
   const apiBase = "http://localhost:8080/api/game";
 
