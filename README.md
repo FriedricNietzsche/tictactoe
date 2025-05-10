@@ -6,7 +6,12 @@
 ```markdown
 # Tic Tac Toe Frontend 
 
-This is the React frontend for the Tic Tac Toe game. It allows users to play against an AI opponent with different difficulty levels (`easy`, `medium`, `hard`). The app connects to a RESTful backend built with Spring Boot and deployed to Render.\
+This is the React frontend for the Tic Tac Toe game. It allows users to play against an AI opponent with different difficulty levels (`easy`, `medium`, `hard`).
+
+
+The hard mode is unbeatable as it uses minimax Algorithm. 
+
+The app connects to a RESTful backend built with Spring Boot and deployed to Render.\
 
 ##NOTE: Ignore the tictactoe-backend folder as that was intially included when starting the project. To see the backend please visit backend repo listed below.
 
