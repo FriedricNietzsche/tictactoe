@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: tictactoe-backend
+    env: java
+    rootDir: tictactoe-backend
+    buildCommand: ./mvnw clean package
+    startCommand: java -jar target/*.jar
+    plan: free
