@@ -22,10 +22,14 @@ https://tictactoe-weld-mu.vercel.app/
 
 - Choose your AI difficulty: Easy, Medium, Hard
 - Pick player symbol: `X` or `O` (Bugged and will remove)
-- AI makes moves based on difficulty
+- AI makes moves based on difficulty:
+  - Easy: Random moves
+  - Medium: Random + win/block logic
+  - Hard: Uses Minimax recursive algorithm for optimal play
 - Highlights winning moves
 - Tracks game outcome history (per difficulty level)
 - Responsive layout
+
 
 ---
 
