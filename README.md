@@ -1,10 +1,10 @@
 
 ---
 
-###  `README.md` for `tictactoe-frontend`
+###  `README.md` for `tictactoe`
 
 ```markdown
-# Tic Tac Toe Frontend 🎨
+# Tic Tac Toe Frontend 
 
 This is the React frontend for the Tic Tac Toe game. It allows users to play against an AI opponent with different difficulty levels (`easy`, `medium`, `hard`). The app connects to a RESTful backend built with Spring Boot and deployed to Render.\
 
@@ -29,7 +29,7 @@ https://tictactoe-weld-mu.vercel.app/
 
 ---
 
-## 🔗 Backend API
+##  Backend API
 
 This app communicates with:
 
@@ -43,7 +43,7 @@ See the [backend repo](https://github.com/<your-username>/tictactoe-backend) for
 
 ---
 
-## 📦 Tech Stack
+##  Tech Stack
 
 - React (with Hooks)
 - Vite / CRA (depending on setup)
@@ -51,7 +51,7 @@ See the [backend repo](https://github.com/<your-username>/tictactoe-backend) for
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### 1. Clone the Repo
 
@@ -94,7 +94,7 @@ In [Vercel](https://vercel.com):
 
 ---
 
-## 🔄 Deployment
+##  Deployment
 
 This project is deployed using [Vercel](https://vercel.com).
 
@@ -102,7 +102,7 @@ Every push to `main` automatically redeploys the app.
 
 ---
 
-## 🛠 Future Improvements
+##  Future Improvements
 
 * Add multiplayer mode
 * Store full match history
@@ -110,13 +110,13 @@ Every push to `main` automatically redeploys the app.
 
 ---
 
-## 📄 License
+##  License
 
 MIT — free to use, modify, and deploy.
 
 ---
 
-## 🙌 Credits
+##  Credits
 
 * Game logic built in collaboration with backend AI
 * Deployed on: [Render](https://render.com) & [Vercel](https://vercel.com)
