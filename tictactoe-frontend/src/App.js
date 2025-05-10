@@ -15,7 +15,7 @@ function App() {
   const [winningLine, setWinningLine] = useState([]);
   const [currentTurn, setCurrentTurn] = useState("X");
 
-  const apiBase = "http://localhost:8080/api/game";
+  const apiBase = import.meta.env.VITE_API_BASE || "http://localhost:8080/api/game";
 
   const newGame = async () => {
     console.log("Start Game clicked");
