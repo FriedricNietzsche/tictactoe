@@ -17,13 +17,16 @@ function App() {
   const apiBase = "http://localhost:8080/api/game";
 
   const newGame = async () => {
+    console.log("Start Game clicked");
     const res = await fetch(
       `${apiBase}/new?aiLevel=${aiLevel}&playerSymbol=${playerSymbol}`,
       { method: "GET" }
     );
     const data = await res.json();
     setSessionId(data.sessionId);
+    console.log("Session ID:", data.sessionId);
     setGameStarted(true);
+    console.log("Game started");
     setWinningLine([]);
     setBoard([
       ["_", "_", "_"],
@@ -143,7 +146,11 @@ function App() {
                 row.map((cell, j) => (
                   <button
                     key={`${i}-${j}`}
-                    onClick={() => makeMove(i, j)}
+                    onClick={() => {
+                    if (currentTurn === playerSymbol && !status) {
+                      makeMove(i, j);
+                    }
+                  }}
                     style={{
                       width: "70px",
                       height: "70px",
